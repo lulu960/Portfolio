@@ -28,12 +28,34 @@
 <!--Corps de la page-->
     </header>
     <div class="Presentation">
-        <h1 class="Page_division">Compétences</h1>
+        <h1 class="Page_division">Contact</h1>
     </div>
     <div class="Page_corp">
         <div class="Page_txt">
-            <h1 class="Page_title_bts_sio">Mes compétences</h1>
-            <p>dfsfsdfsdf</p>
+            <h1 class="Page_title_bts_sio">Me contacter</h1>
+            <form method="post">
+                <label>Votre email</label>
+                <input type="email" name="email" required>
+                <label>Message</label>
+                <textarea name="message" required></textarea>
+                <input type="submit">
+            </form>
+            <?php
+            if (isset($_POST['message'])) {
+                $entete  = 'MIME-Version: 1.0' . "\r\n";
+                $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+                $entete .= 'From: webmaster@monsite.fr' . "\r\n";
+                $entete .= 'Reply-to: ' . $_POST['email'];
+        
+                $message = '<h1>Message envoyé depuis la page Contact de monsite.fr</h1>
+                <p><b>Email : </b>' . $_POST['email'] . '<br>
+                <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
+        
+                $retour = mail('lucas.tara960@gmail.com', 'Envoi depuis page Contact', $message, $entete);
+                if($retour)
+                    echo '<p>Votre message a bien été envoyé.</p>';
+            }
+            ?>
         </div>
     </div>
     <footer class="footer">

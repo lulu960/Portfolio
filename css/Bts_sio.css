@@ -152,7 +152,6 @@
 .Page_title_bts_sio{
     text-align: center;
     margin-top: 0px;
-    padding-top: 10px;
 }
 
 .Bts_txt{
@@ -196,39 +195,6 @@
 /*Corps de la page contacts*/
 
 .Contact_center{
+    padding: 1em;
     text-align: center;
-    margin: 8px;
-}
-
-.Contact_txt{
-    width: 520px;
-    height: 150px;
-    min-width: 520px;
-    min-height: 150px;
-}
-
-.Contact_p{
-    margin: 8px;
-}
-
-.Contact_inp {
-    color: white;
-    cursor:pointer;
-    margin: 8px;
-    width: 100px;
-    height: 60px;
-    background-color: #008090;
-    border: none;
-    border-radius: 10px
-}
-
-.Contact_inp:hover{
-    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
-    background-color: #027180;
-}
-
-.Contact_inp_mail{
-    width: 250px;
 }
