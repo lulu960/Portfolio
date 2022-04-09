@@ -232,3 +232,21 @@
 .Contact_inp_mail{
     width: 250px;
 }
+
+/*Corp de la page Compétences*/
+.Compétences_laguague{
+    display: flex;
+    justify-content: center;
+}
+
+.Compétences_logo{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    margin: 8px;
+}
+
+.Compétences_txt{
+    padding: 1em;
+    text-align: center; 
+}
