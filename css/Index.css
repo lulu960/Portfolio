@@ -70,9 +70,9 @@
   color: grey;
   font-style: normal;
   margin: 0px;
-  margin-right: 50%;
-  margin-left: 50%;
-  width: 6em;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 10px;
   font-family: Garamond;
 }
 /*corp de la page*/
