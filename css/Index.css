@@ -65,6 +65,13 @@
   box-shadow: 100px 200px 200px black;
 }
 
+.photo {
+  width: auto;
+  height: 200px;
+  text-align: center;
+  margin: 8px;
+  border-radius: 50%;
+}
 .Page_division {
   font-size: 20px;
   color: grey;

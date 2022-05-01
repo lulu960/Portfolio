@@ -21,8 +21,9 @@
             <h1 class="Page_title_bts_sio">Présentation</h1>
             <h2 class="Page_title_bts_sio">Qui Suis-Je ?</h2>
             <div class="BTS_txt">
-                <p>Je m'apelle Lucas Taranne, j'ai 22 ans et je suis acctuellement en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers) a IPSSI Paris.</p>
-                <p>Par la suite de ce BTS j'aimerais intégrer une licence professionnelle metier de l'informatique.</p>
+                <img src="img/IMG_20220501_010217.jpg" class="Compétences_logo" alt="">
+                <p>Je m'appelle Lucas Taranne, j'ai 22 ans et je suis actuellement en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers) a IPSSI Paris.</p>
+                <p>Par la suite de ce BTS j'aimerais intégrer une licence professionnelle métier de l'informatique.</p>
                 <p>Vous pouvez télécharger mon CV en cliquant <a href="Veille/taranne-lucas-cv.pdf" target="_blank">ici</a>, et également télécharger ma fiche de compétences <a href="Veille/TARANNE_lucas-Tableau E4.pdf" target="_blank">ici</a></p>
             </div>
         </div>
